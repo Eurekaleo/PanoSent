@@ -1,5 +1,7 @@
 # PanoSent: A Panoptic Sextuple Extraction Benchmark for Multimodal Conversational Aspect-based Sentiment Analysis
 
+# ACMMM 2024 Submission
+
 ## Overview
 PanoSent introduces "Sentica", a MLLM backbone  designed to advance conversational aspect-based sentiment analysis (ABSA). This model innovatively addresses challenges by seamlessly integrating multimodality (text, images, audio, and video), conversation context, fine-grained analysis, and dynamic sentiment changes along with cognitive causal rationales. 
 
