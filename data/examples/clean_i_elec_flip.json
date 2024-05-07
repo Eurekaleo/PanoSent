@@ -1,0 +1,1507 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Olivia"
+            },
+            {
+                "id": 1,
+                "name": "Ethan"
+            },
+            {
+                "id": 2,
+                "name": "Ava"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Chris"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The convenience of smart home devices is truly life-changing. They make everyday tasks so much easier.",
+                "annotation": "The <aspect_01> convenience </aspect_01> of <target_01> smart home devices </target_01> is <opinion_01> truly life-changing </opinion_01>. They <rationale_01> make everyday tasks so much easier </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An image of a person using a smart home device to easily control home appliances",
+                    "id": "img_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "However, I'm worried about the privacy aspect of smart home devices. They seem to compromise our personal information security.",
+                "annotation": "However, I'm <opinion_02> worried </opinion_02> about the <aspect_02> privacy </aspect_02> aspect of smart home devices. They <rationale_02> seem to compromise our personal information security </rationale_02>.",
+                "modality": {
+                    "type": "video",
+                    "caption": "A video showing a warning sign over a smart home device indicating privacy concerns",
+                    "id": "video_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But I think they offer robust security features. With proper settings, the risk to our personal information can be minimized.",
+                "annotation": "But I think they <rationale_03> offer robust security features. With proper settings, the risk to our personal information can be minimized </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I believe the adaptability of smart home devices is their biggest advantage. They can easily integrate with different technologies and systems.",
+                "annotation": "I believe the <aspect_03> adaptability </aspect_03> of smart home devices is their <opinion_03> biggest advantage </opinion_03>. They <rationale_04> can easily integrate with different technologies and systems </rationale_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "However, from my personal experience, it's not as ideal as touted.",
+                "annotation": "However, from my personal experience, it's <opinion_04> not as ideal as touted </opinion_04>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 4,
+                "utterance": "And smart home devices have excellent energy efficiency, effectively minimizing energy use while maintaining performance.",
+                "annotation": "And smart home devices have <opinion_05> excellent </opinion_05> <aspect_04> energy efficiency <aspect_04>, <rationale_05> effectively minimizing energy use while maintaining performance </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 6,
+                "speaker": 0,
+                "utterance": "After hearing about a widespread privacy breach involving smart home devices, I've grown skeptical of this convenience.",
+                "annotation": "After <rationale_06> hearing about a widespread privacy breach involving smart home devices </rationale_06>, I've grown <opinion_06> skeptical </opinion_06> of this convenience.",
+                "modality": {
+                    "type": "audio",
+                    "caption": "Customer testimonial expressing skepticism about smart home devices after a privacy breach",
+                    "id": "audio_0001"
+                },
+                "reply": 0
+            }
+        ],
+        "sextuple": [
+            {
+                "holder": "Olivia",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smart home devices"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "convenience"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "truly life-changing"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "make everyday tasks so much easier"
+                }
+            },
+            {
+                "holder": "Ethan",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smart home devices"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "privacy"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "worried"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "seem to compromise our personal information security"
+                }
+            },
+            {
+                "holder": "Ava",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smart home devices"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "privacy"
+                },
+                "opinion": "None",
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "offer robust security features. With proper settings, the risk to our personal information can be minimized"
+                }
+            },
+            {
+                "holder": "Liam",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smart home devices"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "adaptability"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "biggest advantage"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "can easily integrate with different technologies and systems"
+                }
+            },
+            {
+                "holder": "Ethan",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smart home devices"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "adaptability"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "not as ideal as touted"
+                },
+                "sentiment": "negative",
+                "rationale": "None"
+            },
+            {
+                "holder": "Chris",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smart home devices"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "energy efficiency"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "excellent"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "effectively minimizing energy use while maintaining performance"
+                }
+            },
+            {
+                "holder": "Olivia",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smart home devices"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "convenience"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "skeptical"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "hearing about a widespread privacy breach involving smart home devices"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Oliver",
+                "target": "smart home devices",
+                "aspect": "convenience",
+                "initial sentiment": "positive",
+                "flipped sentiment": "negative",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lily"
+            },
+            {
+                "id": 1,
+                "name": "Max"
+            },
+            {
+                "id": 2,
+                "name": "Aria"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Hey everyone, have you seen the latest smartphone release? The design is absolutely stunning, with its sleek and elegant look that really stands out.",
+                "annotation": "Hey everyone, have you seen the latest <target_01> smartphone </target_01> release? The <aspect_01> design </aspect_01> is <opinion_01> absolutely stunning </opinion_01>, with <rationale_01> its sleek and elegant look that really stands out </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An image showcasing the sleek and elegant design of the latest smartphone",
+                    "id": "img_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, the design is definitely eye-catching, making it look more premium than other models.",
+                "annotation": "I agree, the design is <opinion_02> definitely eye-catching </opinion_02>, <rationale_02> making it look more premium than other models </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "The performance is top-notch, especially with its fast processing speed and smooth multitasking capabilities.",
+                "annotation": "The <aspect_02> performance </aspect_02> is <opinion_03> top-notch </opinion_03>, especially with <rationale_03> its fast processing speed and smooth multitasking capabilities </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An image displaying the smartphone's powerful performance features, highlighting its fast processing and multitasking capabilities.",
+                    "id": "img_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "That sounds promising! But what about battery life? Is it reliable for heavy usage?",
+                "annotation": "That sounds promising! But what about <aspect_03> battery life </aspect_03>? Is it reliable for heavy usage?",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "The battery life is impressive. It easily lasts all day even with heavy usage and I haven't had any issues with it so far.",
+                "annotation": "The battery life is <opinion_04> impressive </opinion_04>. It <rationale_04> easily lasts all day even with heavy usage and I haven't had any issues with it so far </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "But after the recent software update, I've noticed the performance has become sluggish, especially when multitasking. It's quite disappointing.",
+                "annotation": "But after the recent software update, I've <rationale_05> noticed the performance has become sluggish </rationale_05>, especially when multitasking. It's <opinion_05> quite disappointing </opinion_05>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "sextuple": [
+            {
+                "holder": "Lily",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "design"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely stunning"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "its sleek and elegant look that really stands out"
+                }
+            },
+            {
+                "holder": "Max",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "design"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "eye-catching"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making it look more premium than other models"
+                }
+            },
+            {
+                "holder": "Lily",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "performance"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "top-notch"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "its fast processing speed and smooth multitasking capabilities"
+                }
+            },
+            {
+                "holder": "Lily",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "battery life"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "impressive"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "easily lasts all day even with heavy usage and I haven't had any issues with it so far"
+                }
+            },
+            {
+                "holder": "Lily",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "performance"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "quite disappointing"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "noticed the performance has become sluggish"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Lily",
+                "target": "smartphone",
+                "aspect": "performance",
+                "initial sentiment": "positive",
+                "flipped sentiment": "negative",
+                "trigger type": "Personal Memory Trigger and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alan"
+            },
+            {
+                "id": 1,
+                "name": "Sophie"
+            },
+            {
+                "id": 2,
+                "name": "Jack"
+            },
+            {
+                "id": 3,
+                "name": "Olivia"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            },
+            {
+                "id": 5,
+                "name": "Ava"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently purchased a new digital camera, and I must say the image quality is exceptional, with its ability to capture vibrant colors and fine details even in challenging light conditions.",
+                "annotation": "I recently purchased a new <target_01> digital camera </target_01>, and I must say the <aspect_01> image quality </aspect_01> is <opinion_01> exceptional </opinion_01>, with <rationale_01> its ability to capture vibrant colors and fine details even in challenging light conditions </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "High-resolution sample images taken with the digital camera",
+                    "id": "img_0005"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, the low-light performance is also impressive, capturing clear and bright images in evening settings without any noise or loss of detail.",
+                "annotation": "I agree, the <aspect_02> low-light performance </aspect_02> is also <opinion_02> impressive </opinion_02>, <rationale_02> capturing clear and bright images in evening settings without any noise or loss of detail </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A night-time landscape captured with the digital camera",
+                    "id": "img_0006"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, I find the user interface quite cumbersome, with its complex menus and non-intuitive controls that make it hard to access key functions quickly.",
+                "annotation": "However, I find the <aspect_03> user interface </aspect_03> <opinion_03> quite cumbersome </opinion_03>, with <rationale_03> its complex menus and non-intuitive controls that make it hard to access key functions quickly </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The battery life is disappointing, it drains too quickly.",
+                "annotation": "The <aspect_04> battery life </aspect_04> is <opinion_04> disappointing </opinion_04>, it <rationale_04> drains too quickly </rationale_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I've had a similar experience with the battery, which I find inadequate. It needs frequent recharging during extended shooting sessions.",
+                "annotation": "I've had a similar experience with the battery, which I find <opinion_05> inadequate </opinion_05>. It <rationale_05> needs frequent recharging during extended shooting sessions </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Despite the battery issue, the camera's portability is ideal for travel photography, as it's easy to carry around and doesn't add much weight to your luggage.",
+                "annotation": "Despite the battery issue, the camera's <aspect_05> portability </aspect_05> is <opinion_06> ideal </opinion_06> for travel photography, as it's <rationale_06> easy to carry around and doesn't add much weight to your luggage </rationale_06>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "The digital camera being used during a travel photoshoot",
+                    "id": "img_0007"
+                },
+                "reply": 4
+            },
+            {
+                "index": 6,
+                "speaker": 2,
+                "utterance": "But, after attending a workshop and learning about shortcuts and hidden features, I've found the interface to be surprisingly intuitive. It's a game-changer for my shooting efficiency.",
+                "annotation": "But, after attending a workshop and learning about shortcuts and hidden features, I've found the interface to be <opinion_07> surprisingly intuitive </opinion_07>. It's <rationale_07> a game-changer for my shooting efficiency </rationale_07>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "sextuple": [
+            {
+                "holder": 0,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "image quality"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "its ability to capture vibrant colors and fine details even in challenging light conditions"
+                }
+            },
+            {
+                "holder": 1,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "low-light performance"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "capturing clear and bright images in evening settings without any noise or loss of detail"
+                }
+            },
+            {
+                "holder": 2,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "user interface"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite cumbersome"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "its complex menus and non-intuitive controls that make it hard to access key functions quickly"
+                }
+            },
+            {
+                "holder": 3,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "battery life"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "disappointing"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "drains too quickly"
+                }
+            },
+            {
+                "holder": 4,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "battery life"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "inadequate"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "needs frequent recharging during extended shooting sessions"
+                }
+            },
+            {
+                "holder": 5,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "portability"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "ideal"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "easy to carry around and doesn't add much weight to your luggage"
+                }
+            },
+            {
+                "holder": 2,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "user interface"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "surprisingly intuitive"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "a game-changer for my shooting efficiency"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jack",
+                "target": "digital camera",
+                "aspect": "user interface",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Memory Trigger and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Mia"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently purchased a new digital camera, and its image quality is absolutely stunning, capturing every detail with such clarity and vibrant colors that photos almost look lifelike.",
+                "annotation": "I recently purchased a new <target_01> digital camera </target_01>, and its <aspect_01> image quality </aspect_01> is <opinion_01> absolutely stunning </opinion_01>, <rationale_01> capturing every detail with such clarity and vibrant colors that photos almost look lifelike </rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That sounds amazing! What about its low-light performance? Does it capture sharp and clear images in low-light conditions?",
+                "annotation": "That sounds amazing! What about its <aspect_02> low-light performance </aspect_02>? Does it capture sharp and clear images in low-light conditions?",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "The low-light performance is quite impressive. It captures sharp and clear images even in dimly lit environments.",
+                "annotation": "The low-light performance is <opinion_02> quite impressive </opinion_02>. It <rationale_02> captures sharp and clear images even in dimly lit environments </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A photo taken in a dimly lit room, showcasing the clear image captured by the digital camera",
+                    "id": "img_0008"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "That's great to hear! How about its video recording?",
+                "annotation": "That's great to hear! How about its <aspect_03> video recording </aspect_03>?",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "The camera excels in video recording. It captures high-quality videos with excellent stabilization, resulting in smooth and professional-looking footage.",
+                "annotation": "The camera <opinion_03> excels in </opinion_03> video recording. It <rationale_03> captures high-quality videos with excellent stabilization, resulting in smooth and professional-looking footage </rationale_03>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "What about its battery life?",
+                "annotation": "What about its <aspect_04> battery life </aspect_04>?",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 6,
+                "speaker": 0,
+                "utterance": "The battery life is disappointing. It drains quickly, requiring frequent recharging.",
+                "annotation": "The battery life is <opinion_04> disappointing </opinion_04>. It <rationale_04> drains quickly, requiring frequent recharging </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An image of the digital camera's bad battery life, which drains quickly",
+                    "id": "img_0009"
+                },
+                "reply": 5
+            },
+            {
+                "index": 7,
+                "speaker": 1,
+                "utterance": "It's worth noting that the camera's advanced features naturally demand more power, which is common for high-performance devices. Compared to similar models, our camera actually holds up well in terms of battery life, making it a fair trade-off for its quality.",
+                "annotation": "It's worth noting that the camera's advanced features naturally demand more power, which is common for high-performance devices. Compared to similar models, our camera actually holds up well in terms of battery life, making it a fair trade-off for its quality.",
+                "modality": "None",
+                "reply": 6
+            },
+            {
+                "index": 8,
+                "speaker": 0,
+                "utterance": "That's a good point. Considering the advanced features and comparing it with other cameras, the battery performance does seem acceptable. I hadn't looked at it that way before.",
+                "annotation": "That's a good point. <rationale_05> Considering the advanced features and comparing it with other cameras </rationale_05>, the battery performance does seem <opinion_05> acceptable </opinion_05>. I hadn't looked at it that way before.",
+                "modality": "None",
+                "reply": 7
+            }
+        ],
+        "sextuple": [
+            {
+                "holder": 0,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "image quality"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely stunning"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "capturing every detail with such clarity and vibrant colors that photos almost look lifelike"
+                }
+            },
+            {
+                "holder": 0,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "low-light performance"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite impressive"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "captures sharp and clear images even in dimly lit environments"
+                }
+            },
+            {
+                "holder": 0,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "video recording"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "excels in"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "captures high-quality videos with excellent stabilization, resulting in smooth and professional-looking footage"
+                }
+            },
+            {
+                "holder": 0,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "battery life"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "disappointing"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "drains quickly, requiring frequent recharging"
+                }
+            },
+            {
+                "holder": 0,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "battery life"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "acceptable"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Considering the advanced features and comparing it with other cameras"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ava",
+                "target": "digital camera",
+                "aspect": "battery life",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lina"
+            },
+            {
+                "id": 1,
+                "name": "Chris"
+            },
+            {
+                "id": 2,
+                "name": "Maya"
+            },
+            {
+                "id": 3,
+                "name": "Simon"
+            },
+            {
+                "id": 4,
+                "name": "Nora"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Check out my new MacBook Air! The design is simply elegant and portable, featuring a sleek, lightweight body that makes it easy to carry anywhere.",
+                "annotation": "Check out my new <target_01> MacBook Air </target_01>! The <aspect_01> design </aspect_01> is <opinion_01> elegant and portable </opinion_01>, <rationale_01> featuring a sleek, lightweight body that makes it easy to carry anywhere </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A photo of the MacBook Air's elegant and portable design",
+                    "id": "img_0010"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The keyboard of the MacBook Air is problematic; keys often stick or fail to register, leading to frequent typing errors and interruptions.",
+                "annotation": "The <aspect_02> keyboard </aspect_02> of the MacBook Air is <opinion_02> problematic </opinion_02>; <rationale_02> keys often stick or fail to register, leading to frequent typing errors and interruptions </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Have you tried adjusting the keyboard settings? I had similar issues, but after customizing the key sensitivity in System Preferences, the problem was resolved. It made a significant difference for me.",
+                "annotation": "Have you tried adjusting the keyboard settings? I had similar issues, but after customizing the key sensitivity in System Preferences, the problem was resolved. It made a significant difference for me.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "I wasn't aware of that option. Thanks for the tip! After adjusting the settings, my experience with the keyboard improved a lot. It's no longer as problematic as I initially thought.",
+                "annotation": "I wasn't aware of that option. Thanks for the tip! <rationale_03> After adjusting the settings, my experience with the keyboard improved a lot </rationale_03>. It's <opinion_03> no longer as problematic as I initially thought </opinion_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "Are there other noteworthy features I should know about?",
+                "annotation": "Are there other noteworthy features I should know about?",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 5,
+                "speaker": 4,
+                "utterance": "The battery life of the MacBook Air is exceptional. It can last for hours with continuous usage.",
+                "annotation": "The <aspect_03> battery life </aspect_03> of the MacBook Air is <opinion_04> exceptional </opinion_04>. It <rationale_04> can last for hours with continuous usage </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An image showing the MacBook Air being used outdoors, with an indicator of the long battery life, highlighting its ability to last for hours during continuous usage.",
+                    "id": "img_0011"
+                },
+                "reply": 4
+            }
+        ],
+        "sextuple": [
+            {
+                "holder": 0,
+                "target": {
+                    "identity": "target_01",
+                    "value": "MacBook Air"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "design"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "elegant and portable"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "featuring a sleek, lightweight body that makes it easy to carry anywhere"
+                }
+            },
+            {
+                "holder": 1,
+                "target": {
+                    "identity": "target_01",
+                    "value": "MacBook Air"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "keyboard"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "problematic"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "keys often stick or fail to register, leading to frequent typing errors and interruptions"
+                }
+            },
+            {
+                "holder": 1,
+                "target": {
+                    "identity": "target_01",
+                    "value": "MacBook Air"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "keyboard"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "no longer as problematic as I initially thought"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "After adjusting the settings, my experience with the keyboard improved a lot"
+                }
+            },
+            {
+                "holder": 3,
+                "target": {
+                    "identity": "target_01",
+                    "value": "MacBook Air"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "battery life"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "exceptional"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "can last for hours with continuous usage"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Chris",
+            "target": "MacBook Air",
+            "aspect": "keyboard",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lily"
+            },
+            {
+                "id": 1,
+                "name": "Max"
+            },
+            {
+                "id": 2,
+                "name": "Aria"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Hey everyone, have you seen the latest smartphone release? The design is absolutely stunning, with its sleek and elegant look that really stands out.",
+                "annotation": "Hey everyone, have you seen the latest <target_01> smartphone </target_01> release? The <aspect_01> design </aspect_01> is <opinion_01> absolutely stunning </opinion_01>, with <rationale_01> its sleek and elegant look that really stands out </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An image showcasing the sleek and elegant design of the latest smartphone",
+                    "id": "img_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, the design is definitely eye-catching, making it look more premium than other models.",
+                "annotation": "I agree, the design is <opinion_02> definitely eye-catching </opinion_02>, <rationale_02> making it look more premium than other models </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "The performance is top-notch, especially with its fast processing speed and smooth multitasking capabilities.",
+                "annotation": "The <aspect_02> performance </aspect_02> is <opinion_03> top-notch </opinion_03>, especially with <rationale_03> its fast processing speed and smooth multitasking capabilities </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An image displaying the smartphone's powerful performance features, highlighting its fast processing and multitasking capabilities.",
+                    "id": "img_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "That sounds promising! But what about battery life? Is it reliable for heavy usage?",
+                "annotation": "That sounds promising! But what about <aspect_03> battery life </aspect_03>? Is it reliable for heavy usage?",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "The battery life is impressive. It easily lasts all day even with heavy usage and I haven't had any issues with it so far.",
+                "annotation": "The battery life is <opinion_04> impressive </opinion_04>. It <rationale_04> easily lasts all day even with heavy usage and I haven't had any issues with it so far </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "I just read a detailed review highlighting significant issues with the smartphone's battery life. It turns out, the battery performance drastically drops after a few months of use, which is really disappointing.",
+                "annotation": "I just read a detailed review highlighting significant issues with the smartphone's battery life. It turns out, <rationale_05> the battery performance drastically drops after a few months of use </rationale_05>, which is <opinion_05> really disappointing </opinion_05>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": "Lily",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "design"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely stunning"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "its sleek and elegant look that really stands out"
+                }
+            },
+            {
+                "holder": "Max",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "design"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "eye-catching"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making it look more premium than other models"
+                }
+            },
+            {
+                "holder": "Lily",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "performance"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "top-notch"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "its fast processing speed and smooth multitasking capabilities"
+                }
+            },
+            {
+                "holder": "Lily",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "battery life"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "impressive"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "easily lasts all day even with heavy usage and I haven't had any issues with it so far"
+                }
+            },
+            {
+                "holder": "Lily",
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "battery life"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "really disappointing"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "the battery performance drastically drops after a few months of use"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Lily",
+                "target": "smartphone",
+                "aspect": "battery life",
+                "initial sentiment": "positive",
+                "flipped sentiment": "negative",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alan"
+            },
+            {
+                "id": 1,
+                "name": "Sophie"
+            },
+            {
+                "id": 2,
+                "name": "Jack"
+            },
+            {
+                "id": 3,
+                "name": "Olivia"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            },
+            {
+                "id": 5,
+                "name": "Ava"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently purchased a new digital camera, and I must say the image quality is exceptional, with its ability to capture vibrant colors and fine details even in challenging light conditions.",
+                "annotation": "I recently purchased a new <target_01> digital camera </target_01>, and I must say the <aspect_01> image quality </aspect_01> is <opinion_01> exceptional </opinion_01>, with <rationale_01> its ability to capture vibrant colors and fine details even in challenging light conditions </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "High-resolution sample images taken with the digital camera",
+                    "id": "img_0005"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, the low-light performance is also impressive, capturing clear and bright images in evening settings without any noise or loss of detail.",
+                "annotation": "I agree, the <aspect_02> low-light performance </aspect_02> is also <opinion_02> impressive </opinion_02>, <rationale_02> capturing clear and bright images in evening settings without any noise or loss of detail </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A night-time landscape captured with the digital camera",
+                    "id": "img_0006"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, I find the user interface quite cumbersome, with its complex menus and non-intuitive controls that make it hard to access key functions quickly.",
+                "annotation": "However, I find the <aspect_03> user interface </aspect_03> <opinion_03> quite cumbersome </opinion_03>, with <rationale_03> its complex menus and non-intuitive controls that make it hard to access key functions quickly </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The battery life is disappointing, it drains too quickly.",
+                "annotation": "The <aspect_04> battery life is </aspect_04> <opinion_04> disappointing </opinion_04>, it <rationale_04> drains too quickly </rationale_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I've had a similar experience with the battery, which I find inadequate. It needs frequent recharging during extended shooting sessions.",
+                "annotation": "I've had a similar experience with the battery, which I find <opinion_05> inadequate </opinion_05>. It <rationale_05> needs frequent recharging during extended shooting sessions </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Despite the battery issue, the camera's portability is ideal for travel photography, as it's easy to carry around and doesn't add much weight to your luggage.",
+                "annotation": "Despite the battery issue, the camera's <aspect_05> portability </aspect_05> is <opinion_06> ideal </opinion_06> for travel photography, as it's <rationale_06> easy to carry around and doesn't add much weight to your luggage </rationale_06>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "The digital camera being used during a travel photoshoot",
+                    "id": "img_0007"
+                },
+                "reply": 4
+            },
+            {
+                "index": 6,
+                "speaker": 3,
+                "utterance": "After using it during a day-long event, I was pleasantly surprised to find the battery lasted much longer than expected, especially when using power-saving modes. Now I am satisfied with its battery life.",
+                "annotation": "After using it during a day-long event, I was pleasantly surprised to find <rationale_07> the battery lasted much longer than expected, especially when using power-saving modes </rationale_07>. Now I am <opinion_07> satisfied with </opinion_07> its battery life.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": 0,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "image quality"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "its ability to capture vibrant colors and fine details even in challenging light conditions"
+                }
+            },
+            {
+                "holder": 1,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "low-light performance"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "capturing clear and bright images in evening settings without any noise or loss of detail"
+                }
+            },
+            {
+                "holder": 2,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "user interface"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite cumbersome"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "its complex menus and non-intuitive controls that make it hard to access key functions quickly"
+                }
+            },
+            {
+                "holder": 3,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "battery life"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "disappointing"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "drains too quickly"
+                }
+            },
+            {
+                "holder": 4,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "battery life"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "inadequate"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "needs frequent recharging during extended shooting sessions"
+                }
+            },
+            {
+                "holder": 5,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "portability"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "ideal"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "easy to carry around and doesn't add much weight to your luggage"
+                }
+            },
+            {
+                "holder": 3,
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital camera"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "battery life"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "satisfied with"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "the battery lasted much longer than expected, especially when using power-saving modes"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Olivia",
+                "target": "digital camera",
+                "aspect": "battery life",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Memory Trigger and Self-reflection"
+            }
+        ]
+    }
+]
