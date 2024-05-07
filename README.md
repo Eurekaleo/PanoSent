@@ -39,5 +39,3 @@ conda create -n PanoSent python=3.9
 conda activate PanoSent
 
 pip install -r requirements.txt
-
-
