@@ -32,3 +32,12 @@ Our comprehensive evaluation setup includes:
 - `evaluation/` - Tools and scripts for evaluating Sentica’s performance.
 - `baseline/` - Baseline models for comparative performance evaluation.
 - `utils/` - Supporting utilities for various operations within the repository.
+
+```bash
+conda create -n PanoSent python=3.9
+
+conda activate PanoSent
+
+pip install -r requirements.txt
+
+
