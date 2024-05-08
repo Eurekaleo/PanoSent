@@ -1,0 +1,1711 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ethan"
+            },
+            {
+                "id": 1,
+                "name": "Olivia"
+            },
+            {
+                "id": 2,
+                "name": "Lucas"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the screenplay of the new action series is incredibly engaging. The unexpected plot twists consistently deliver high-stakes drama.",
+                "annotation": "I think the <aspect_01> screenplay </aspect_01> of the <target_01> new action series </target_01> is <opinion_01> incredibly engaging </opinion_01>. <rationale_01> The unexpected plot twists consistently deliver high-stakes drama </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Dramatic poster of the action series showcasing main characters and a tagline about its thrilling plot twists.",
+                    "id": "img_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "However, I feel the character development in the series is somewhat inconsistent, with some characters being well-developed while others seem underexplored, making it hard to fully connect with the storyline.",
+                "annotation": "However, I feel the <aspect_02> character development </aspect_02> in the series is <opinion_02> somewhat inconsistent </opinion_02>, <rationale_02> with some characters being well-developed while others seem underexplored </rationale_02>, making it hard to fully connect with the storyline.",
+                "modality": {
+                    "type": "audio",
+                    "caption": "Audio clip juxtaposing a deep character monologue with a superficial dialogue, showcasing the series' character development inconsistency.",
+                    "id": "audio_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But the series' storyline is exceptionally intricate, marked by its layered narratives and compelling plot twists that keep the narrative dynamic.",
+                "annotation": "But the series' <aspect_03> storyline </aspect_03> is <opinion_03> exceptionally intricate </opinion_03>, marked by <rationale_03> its layered narratives and compelling plot twists that keep the narrative dynamic </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "I also find the pacing of the series refreshingly slow, allowing for detailed character development and a more profound build-up of suspense.",
+                "annotation": "I also find the <aspect_04> pacing </aspect_04> of the series <opinion_04> refreshingly slow </opinion_04>, <rationale_04> allowing for detailed character development and a more profound build-up of suspense </rationale_04>.",
+                "modality": {
+                    "type": "video",
+                    "caption": "Video clip demonstrating the series' slow pacing, focusing on character exploration and suspense building.",
+                    "id": "video_0001"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new action series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "screenplay",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "engaging",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "unexpected plot twists consistently deliver high-stakes drama",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new action series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "character development",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "inconsistent",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "with some characters being well-developed while others seem underexplored, making it hard to fully connect with the storyline",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new action series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "storyline",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "intricate",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "layered narratives and compelling plot twists that keep the narrative dynamic",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new action series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "refreshingly slow",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "allowing for detailed character development and a more profound build-up of suspense",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "DroneEnthusiast99"
+            },
+            {
+                "id": 1,
+                "name": "TechWizard76"
+            },
+            {
+                "id": 2,
+                "name": "AerialExplorer"
+            },
+            {
+                "id": 3,
+                "name": "SkySafariPilot"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new drone model's stability is significantly enhanced, providing stable and clear aerial footage even in windy conditions.",
+                "annotation": "The new <target_01> drone </target_01> model's <aspect_01> stability </aspect_01> is <opinion_01> significantly enhanced </opinion_01>, <rationale_01> providing stable and clear aerial footage even in windy conditions </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Image of the drone in flight, demonstrating its enhanced stability in varied conditions.",
+                    "id": "img_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The drone's maneuverability is impressively precise, allowing for agile and accurate movements during complex flight paths.",
+                "annotation": "The drone's <aspect_02> maneuverability </aspect_02> is <opinion_02> impressively precise </opinion_02>, <rationale_02> allowing for agile and accurate movements during complex flight paths </rationale_02>.",
+                "modality": {
+                    "type": "video",
+                    "caption": "Video demonstrating the drone's precise maneuverability in navigating complex environments.",
+                    "id": "video_0002"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the drone's battery life is inadequate for long-term use, often requiring frequent recharging during extended missions.",
+                "annotation": "However, the drone's <aspect_03> battery life </aspect_03> is <opinion_03> inadequate </opinion_03> for long-term use, <rationale_03> often requiring frequent recharging during extended missions </rationale_03>.",
+                "modality": {
+                    "type": "audio",
+                    "caption": "Audio recording discussing the limitations of the drone's battery life in prolonged use scenarios.",
+                    "id": "audio_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I think the power management is efficient, maintaining longer flight times even with its limited battery capacity, directly addressing the endurance challenge.",
+                "annotation": "I think the <aspect_04> power management </aspect_04> is <opinion_04> efficient </opinion_04>, <rationale_04> maintaining longer flight times even with its limited battery capacity, directly addressing the endurance challenge </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "DroneEnthusiast99",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "stability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "significantly enhanced",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "providing stable and clear aerial footage even in windy conditions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "TechWizard76",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "maneuverability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressively precise",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "allowing for agile and accurate movements during complex flight paths",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "AerialExplorer",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "inadequate",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "often requiring frequent recharging during extended missions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "SkySafariPilot",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "power management",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "efficient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "maintaining longer flight times even with its limited battery capacity, directly addressing the endurance challenge",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Chris"
+            },
+            {
+                "id": 1,
+                "name": "Emma"
+            },
+            {
+                "id": 2,
+                "name": "Oliver"
+            },
+            {
+                "id": 3,
+                "name": "Sophia"
+            },
+            {
+                "id": 4,
+                "name": "Lucas"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently upgraded to the latest smartphone, and the low-light performance is exceptional, capturing clear and vibrant photos even in dim settings.",
+                "annotation": "I recently upgraded to the latest <target_01> smartphone </target_01>, and the <aspect_01> low-light performance </aspect_01> is <opinion_01> exceptional </opinion_01>, <rationale_01> capturing clear and vibrant photos even in dim settings </rationale_01>.",
+                "modality": {
+                    "type": "image",
+                    "caption": "Photo demonstrating the smartphone camera's exceptional low-light performance.",
+                    "id": "image_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I find the battery life to be quite disappointing. It tends to drain quickly even with minimal usage.",
+                "annotation": "I find the <aspect_02> battery life </aspect_02> to be <opinion_02> quite disappointing </opinion_02>. <rationale_02> It tends to drain quickly even with minimal usage </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Yes, the battery life is a significant issue, often needing recharging multiple times a day, which is inconvenient.",
+                "annotation": "Yes, the battery life is a <opinion_03> significant issue </opinion_03>, <rationale_03> often needing recharging multiple times a day, which is inconvenient </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Despite the battery issue, the smartphone's design is sleek and visually appealing, characterized by its slim profile and smooth finish.",
+                "annotation": "Despite the battery issue, the smartphone's <aspect_03> design </aspect_03> is <opinion_04> sleek and visually appealing </opinion_04>, <rationale_04> characterized by its slim profile and smooth finish </rationale_04>.",
+                "modality": {
+                    "type": "audio",
+                    "caption": "Audio clip of the phone's sleek design, emphasizing its appealing feel with its slim profile and smooth finish.",
+                    "id": "audio_0003"
+                },
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "In contrast, I find the phone's design lacks uniqueness, appearing quite generic compared to other smartphones on the market.",
+                "annotation": "In contrast, I find the phone's design <opinion_05> lacks uniqueness </opinion_05>, <rationale_05> appearing quite generic compared to other smartphones on the market </rationale_05>.",
+                "modality": {
+                    "type": "video",
+                    "caption": "Video showcasing the smartphone's design compared to other models, highlighting its generic appearance.",
+                    "id": "video_0003"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Chris",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "low-light performance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "capturing clear and vibrant photos even in dim settings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "disappointing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it tends to drain quickly even with minimal usage",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "significant issue",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "often needing recharging multiple times a day, which is inconvenient",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "sleek and visually appealing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "characterized by its slim profile and smooth finish",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "lacks uniqueness",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "appearing quite generic compared to other smartphones on the market",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "PhotoEnthusiast"
+            },
+            {
+                "id": 1,
+                "name": "TechGuru88"
+            },
+            {
+                "id": 2,
+                "name": "LensMaster"
+            },
+            {
+                "id": 3,
+                "name": "CameraLover22"
+            },
+            {
+                "id": 4,
+                "name": "DigitalArtist"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently purchased a new DSLR camera, and its image quality is exceptional, particularly evident in the remarkable sharpness and color accuracy of the photos.",
+                "annotation": "I recently purchased a new <target_01> DSLR camera </target_01>, and its <aspect_01> image quality </aspect_01> is <opinion_01> exceptional </opinion_01>, <rationale_01> particularly evident in the remarkable sharpness and color accuracy of the photos </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Sample image highlighting the DSLR camera's exceptional sharpness and color accuracy.",
+                    "id": "img_0004"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The DSLR camera's dynamic range is impressive, accurately capturing intricate details in various lighting conditions, from bright highlights to dark shadows.",
+                "annotation": "The DSLR camera's <aspect_02> dynamic range </aspect_02> is <opinion_02> impressive </opinion_02>, <rationale_02> accurately capturing intricate details in various lighting conditions, from bright highlights to dark shadows </rationale_02>.",
+                "modality": {
+                    "type": "video",
+                    "caption": "Video showcasing the DSLR camera's dynamic range, with detailed visual representation in both bright and dark areas.",
+                    "id": "video_0004"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the DSLR camera's video capabilities are subpar, with lower resolution and slower frame rates, making it less ideal for high-quality video recording compared to modern mirrorless cameras.",
+                "annotation": "However, the DSLR camera's <aspect_03> video capabilities </aspect_03> are <opinion_03> subpar </opinion_03>, <rationale_03> with lower resolution and slower frame rates, making it less ideal for high-quality video recording compared to modern mirrorless cameras </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Despite its video recording drawbacks, the robust build is impressive, evidenced by its sturdy construction and resistance to wear, ensuring durability for photographers.",
+                "annotation": "Despite its video recording drawbacks, the <aspect_04> robust build </aspect_04> is <opinion_04> impressive </opinion_04>, evidenced by <rationale_04> its sturdy construction and resistance to wear </rationale_04>, ensuring durability for photographers.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "The DSLR camera's lens compatibility is exceptional, allowing for a diverse range of photographic styles and techniques, from wide-angle landscapes to detailed macro shots.",
+                "annotation": "The DSLR camera's <aspect_05> lens compatibility </aspect_05> is <opinion_05> exceptional </opinion_05>, <rationale_05> allowing for a diverse range of photographic styles and techniques, from wide-angle landscapes to detailed macro shots </rationale_05>.",
+                "modality": {
+                    "type": "audio",
+                    "caption": "Audio clip discussing the DSLR camera's lens compatibility, highlighting its versatility in various photographic styles and techniques.",
+                    "id": "audio_0004"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "PhotoEnthusiast",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "DSLR camera",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "image quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "particularly evident in the remarkable sharpness and color accuracy of the photos",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "TechGuru88",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "DSLR camera",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "dynamic range",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "accurately capturing intricate details in various lighting conditions, from bright highlights to dark shadows",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "LensMaster",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "DSLR camera",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "video capabilities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "subpar",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "with lower resolution and slower frame rates, making it less ideal for high-quality video recording compared to modern mirrorless cameras",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "CameraLover22",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "DSLR camera",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "robust build",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "its sturdy construction and resistance to wear, ensuring durability for photographers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "DigitalArtist",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "DSLR camera",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "lens compatibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "allowing for a diverse range of photographic styles and techniques, from wide-angle landscapes to detailed macro shots",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "AudioEnthusiast"
+            },
+            {
+                "id": 1,
+                "name": "TechWizard89"
+            },
+            {
+                "id": 2,
+                "name": "SoundGuru"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently purchased high-end studio monitors, and their sound quality is unparalleled, featuring crystal-clear clarity and precision that creates an immersive audio experience.",
+                "annotation": "I recently purchased high-end <target_01> studio monitors </target_01>, and their <aspect_01> sound quality </aspect_01> is <opinion_01> unparalleled </opinion_01>, <rationale_01> featuring crystal-clear clarity and precision that creates an immersive audio experience </rationale_01>.",
+                "modality": {
+                    "type": "video",
+                    "caption": "A video demonstration of the high-end studio monitors in use, highlighting their unparalleled sound clarity and precision in a professional audio setting.",
+                    "id": "video_0005"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I completely agree; Those studio monitors are exceptional in sonic performance, offering an accurate frequency response and transient response, perfect for detailed audio work.",
+                "annotation": "I completely agree; Those studio monitors are <opinion_02> exceptional </opinion_02> in <aspect_02> sonic performance </aspect_02>, <rationale_02> offering an accurate frequency response and transient response, perfect for detailed audio work </rationale_02>.",
+                "modality": {
+                    "type": "audio",
+                    "caption": "Audio sample illustrating the studio monitors' accurate frequency and transient response, ideal for professional audio production.",
+                    "id": "audio_0005"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, their design is bulky, evident in their large size and heavy weight, making them less suited for small spaces or easy repositioning.",
+                "annotation": "However, their <aspect_03> design </aspect_03> is <opinion_03> bulky </opinion_03>, evident in <rationale_03> their large size and heavy weight </rationale_03>, making them less suited for small spaces or easy repositioning.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Image showcasing the bulky and heavy design of the studio monitors, illustrating the challenges of fitting them in a compact space",
+                    "id": "img_0005"
+                },
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "AudioEnthusiast",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "studio monitors",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "sound quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "unparalleled",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "featuring crystal-clear clarity and precision that creates an immersive audio experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "TechWizard89",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "studio monitors",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "sonic performance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "offering an accurate frequency response and transient response, perfect for detailed audio work",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "SoundGuru",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "studio monitors",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "bulky",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "their large size and heavy weight",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophia"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Emma"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the fitness tracking feature of smartwatches is advanced, accurately monitoring steps and heart rate during exercise.",
+                "annotation": "I think the <aspect_01> fitness tracking feature </aspect_01> of <target_01> smartwatches </target_01> is <opinion_01> advanced </opinion_01>, <rationale_01> accurately monitoring steps and heart rate during exercise </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Close-up image of a smartwatch displaying advanced fitness tracking metrics like step count and heart rate.",
+                    "id": "img_0006"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The GPS functionality in smartwatches is precise, enhancing the tracking of movements during outdoor activities.",
+                "annotation": "The <aspect_02> GPS functionality </aspect_02> in smartwatches is <opinion_02> precise </opinion_02>, <rationale_02> enhancing the tracking of movements during outdoor activities </rationale_02>.",
+                "modality": {
+                    "type": "audio",
+                    "caption": "Audio review praising the precise GPS functionality in smartwatches for outdoor activity tracking.",
+                    "id": "audio_0006"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Smartwatches' notification system can be intrusive, constantly interrupting with alerts and messages.",
+                "annotation": "Smartwatches' <aspect_03> notification system </aspect_03> can be <opinion_03> intrusive </opinion_03>, <rationale_03> constantly interrupting with alerts and messages </rationale_03>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The convenience factor of smartwatches is significant, allowing quick access to important updates without disrupting tasks",
+                "annotation": "The <aspect_04> convenience factor </aspect_04> of smartwatches is <opinion_04> significant </opinion_04>, <rationale_04> allowing quick access to important updates without disrupting tasks </rationale_04>.",
+                "modality": {
+                    "type": "video",
+                    "caption": "Video demonstrating the convenience of smartwatches, highlighting quick access to updates and information.",
+                    "id": "video_0006"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatches",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "fitness tracking feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "advanced",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "accurately monitoring steps and heart rate during exercise",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatches",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "GPS functionality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "precise",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "enhancing the tracking of movements during outdoor activities",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatches",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "notification system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "intrusive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "constantly interrupting with alerts and messages",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatches",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "convenience factor",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "significant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "allowing quick access to important updates without disrupting tasks",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Samantha"
+            },
+            {
+                "id": 1,
+                "name": "Max"
+            },
+            {
+                "id": 2,
+                "name": "Natalie"
+            },
+            {
+                "id": 3,
+                "name": "Tyler"
+            },
+            {
+                "id": 4,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The compact size of the e-reader is incredibly convenient, fitting easily in my bag or hand for on-the-go reading.",
+                "annotation": "The <aspect_01> compact size </aspect_01> of the <target_01> e-reader </target_01> is <opinion_01> incredibly convenient </opinion_01>, <rationale_01> fitting easily in my bag or hand for on-the-go reading </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An e-reader shown fitting comfortably in a small bag, emphasizing its portability.",
+                    "id": "img_0007"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But I think that the display of the tablet is remarkably vibrant, making visuals pop with color and clarity, ideal for graphic content.",
+                "annotation": "But I think that the <aspect_02> display </aspect_02> of the <target_02> tablet </target_02> is <opinion_02> remarkably vibrant </opinion_02>, <rationale_02> making visuals pop with color and clarity, ideal for graphic content </rationale_02>.",
+                "modality": {
+                    "type": "audio",
+                    "caption": "Audio commentary highlighting the vibrant display of a tablet and its impact on graphic visuals.",
+                    "id": "audio_0007"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "The tablet's responsive touchscreen is highly interactive, fluidly responding to gestures and taps during reading.",
+                "annotation": "The tablet's <aspect_03> responsive touchscreen </aspect_03> is <opinion_03> highly interactive </opinion_03>, <rationale_03> fluidly responding to gestures and taps during reading </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The e-reader's e-ink display is remarkably clear, eliminating glare and making it similar to reading on paper.",
+                "annotation": "The e-reader's <aspect_04> e-ink display </aspect_04> is <opinion_04> remarkable clear </opinion_04>, <rationale_04> eliminating glare and making it similar to reading on paper </rationale_04>.",
+                "modality": {
+                    "type": "video",
+                    "caption": "Video showing an e-reader's e-ink display under various lighting conditions, highlighting reduced glare.",
+                    "id": "video_0007"
+                },
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "The tablet's multifunctionality is its strength, combining reading, web browsing, and multimedia in one device.",
+                "annotation": "The tablet's <aspect_05> multifunctionality <aspect_05> is its <opinion_05> strength </opinion_05>, <rationale_05> combining reading, web browsing, and multimedia in one device </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Samantha",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "compact size",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly convenient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "fitting easily in my bag or hand for on-the-go reading",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "display",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "remarkably vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making visuals pop with color and clarity, ideal for graphic content",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Natalie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "responsive touchscreen",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "highly interactive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "fluidly responding to gestures and taps during reading",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tyler",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "e-ink display",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "remarkably clear",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "eliminating glare and making it similar to reading on paper",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "multifunctionality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "strength",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "combining reading, web browsing, and multimedia in one device",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Leo"
+            },
+            {
+                "id": 1,
+                "name": "Sophia"
+            },
+            {
+                "id": 2,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I believe that the sound quality of this new speaker exceptional. The bass depth and richness bring life to every track.",
+                "annotation": "I believe that the <aspect_01> sound quality </aspect_01> of this new <target_01> speaker </target_01> <opinion_01> exceptional </opinion_01>. <rationale_01> The bass depth and richness bring life to every track </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I have to disagree with that. I found the speaker's sound at higher volumes is quite distorted, especially noticeable in bass-heavy tracks, with the bass becoming muddy and overpowering the other frequencies.",
+                "annotation": "I have to disagree with that. I found the speaker's <aspect_02> sound at higher volumes </aspect_02> is <opinion_02> quite distorted </opinion_02>, especially noticeable in bass-heavy tracks, with <rationale_02> the bass becoming muddy and overpowering the other frequencies </rationale_02>.",
+                "modality": {
+                    "type": "audio",
+                    "caption": "A sample audio clip where the speaker's sound quality is distorted at higher volumes",
+                    "id": "audio_0008"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "It's surprising to hear about distortion. In my experience, the speaker's sound quality at all volume levels remains crisp and clear, with no distortion noticeable even at high volumes.",
+                "annotation": "It's surprising to hear about distortion. In my experience, the speaker's <aspect_03> sound quality at all volume levels </aspect_03> remains <opinion_03> crisp and clear </opinion_03>, with <rationale_03> no distortion noticeable even at high volumes </rationale_03>.",
+                "modality": {
+                    "type": "video",
+                    "caption": "A video demonstrating the speaker's performance at various volume levels, showcasing its consistent crisp and clear sound quality with an absence of distortion even at high volumes.",
+                    "id": "video_0008"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "Although the sound quality is good, I find the speaker's size and weight to be a disadvantage, making it less practical for easy transport.",
+                "annotation": "Although the sound quality is good, I find the speaker's <aspect_04> size and weight </aspect_04> to be a <opinion_04> disadvantage </opinion_04>, <rationale_04> making it less practical for easy transport </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A photo of the speaker, emphasizing its larger size and substantial weight, indicating the challenge it presents for portability.",
+                    "id": "img_0008"
+                },
+                "reply": 0
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "speaker",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "sound quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "the bass depth and richness bring life to every track ",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "speaker",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "sound at higher volumes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite distorted",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "the bass becoming muddy and overpowering the other frequencies",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "speaker",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "sound quality at all volume levels",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "crisp and clear",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "no distortion noticeable even at high volumes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "speaker",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "size and weight",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "disadvantage",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "making it less practical for easy transport",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophia"
+            },
+            {
+                "id": 1,
+                "name": "David"
+            },
+            {
+                "id": 2,
+                "name": "Emma"
+            },
+            {
+                "id": 3,
+                "name": "Lucas"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The preservation of the historical site is exemplary, maintaining original structures and artifacts in excellent condition.",
+                "annotation": "The <aspect_01> preservation </aspect_01> of the <target_01> historical site </target_01> is <opinion_01> exemplary </opinion_01>, <rationale_01> maintaining original structures and artifacts in excellent condition </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An image displaying the well-preserved structures and artifacts of the historical site",
+                    "id": "img_0009"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The site's accessibility, however, is limited, with certain areas being difficult for visitors to reach.",
+                "annotation": "The site's <aspect_02> accessibility </aspect_02>, however, is <opinion_02> limited </opinion_02>, with <rationale_02> certain areas being difficult for visitors to reach </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Despite the accessibility challenges, the site's guided tours are informative, featuring detailed explanations and historical context for each exhibit, offering rich historical insights.",
+                "annotation": "Despite the accessibility challenges, the site's <aspect_03> guided tours </aspect_03> are <opinion_03> informative </opinion_03>, <rationale_03> featuring detailed explanations and historical context for each exhibit </rationale_03>, offering rich historical insights.",
+                "modality": {
+                    "type": "audio",
+                    "caption": "<audio> A sample from the guided tour's audio at the historical site, providing detailed historical information </audio>",
+                    "id": "audio_0009"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The digital archive of the historical site is comprehensive, containing extensive records and artifacts that cover the full spectrum of the site's history, making its rich history accessible to a wider audience.",
+                "annotation": "The <aspect_04> digital archive </aspect_04> of the historical site is <opinion_04> comprehensive </opinion_04>, <rationale_04> containing extensive records and artifacts that cover the full spectrum of the site's history </rationale_04>, making its rich history accessible to a wider audience </rationale_04>.",
+                "modality": {
+                    "type": "video",
+                    "caption": "A video showcasing the digital archive of the historical site, highlighting its extensive records and artifacts that cover the full spectrum of the site's history.",
+                    "id": "video_0009"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "historical site",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "preservation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exemplary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "maintaining original structures and artifacts in excellent condition",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "historical site",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "accessibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "limited",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "certain areas being difficult for visitors to reach",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "historical site",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "guided tours",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "informative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "featuring detailed explanations and historical context for each exhibit",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "historical site",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "digital archive",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "comprehensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "containing extensive records and artifacts that cover the full spectrum of the site's history"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    }
+]
