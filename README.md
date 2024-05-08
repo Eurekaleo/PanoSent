@@ -32,7 +32,6 @@ Our comprehensive evaluation setup includes:
 - `data/` - Scripts for processing and managing multimodal datasets.
 - `train/` - Scripts for the staged training of Sentica.
 - `evaluation/` - Tools and scripts for evaluating Sentica’s performance.
-- `baseline/` - Baseline models for comparative performance evaluation.
 - `utils/` - Supporting utilities for various operations within the repository.
 
 ```bash
